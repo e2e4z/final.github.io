@@ -1,0 +1,80 @@
+.footer {
+    background-color: #3B3B3B;
+}
+
+.footer_wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 40px 30px 36px 30px;
+}
+
+.form__input {
+    background-color: #000;
+    line-height: 20px;
+    font-weight: 400;
+    color: #999;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border-style: none;
+    height: 31px;
+    width: 210px;
+    padding-left: 13px;
+    font-family: Georgia, sans-serif;
+}
+
+.item__header {
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 400;
+    color: $color-footer;
+    margin-bottom: 26px;
+}
+
+.item__main-text {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    color: $color-footer;
+}
+
+.item__text {
+    font-size: 12px;
+    line-height: 19px;
+    margin-bottom: 7px;
+    color: $color-footer;
+}
+
+.menu_footer {
+    padding: 0;
+}
+
+.item__post {
+    font-size: 11px;
+    line-height: 13px;
+    margin-bottom: 10px;
+    color: $color-footer
+}
+
+.menu_footer__list {
+    border-bottom: 0.6px #666666 solid;
+    margin-bottom: 10px;
+    padding-bottom: 7px;
+    list-style: none;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    color: #999;
+}
+
+.item__title {
+    margin-bottom: 7px;
+    color: $color-footer;
+}
+
+.text {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #888;
+}

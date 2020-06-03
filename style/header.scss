@@ -1,0 +1,169 @@
+@font-face {
+    font-family: SocialIco;
+    src: url(../fonts/Socialico.ttf);
+}
+
+.navigation {
+    background-color: $color-main;
+}
+
+.navbar {
+    color: $color-main;
+}
+
+.socials {
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    font-family: SocialIco, sans-serif;
+    background-color: $color-main;
+}
+
+.front-line {
+    background-color: $color-main;
+    height: 6px;
+}
+
+.socials_header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar_size {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation_header {
+    clear: both;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 29px 20px 0;
+}
+
+.menu_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: flex-start;
+    width: 65%;
+
+    @media (max-width: $screen-md) {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    
+    @media (max-width: $screen-sm) {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+}
+
+.search_size {
+    font-size: 0;
+    padding-left: 0;
+}
+
+.top-part_header {
+    padding-right: 30px;
+    padding-bottom: 37px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-part__heading {
+    font-weight: 400;
+    color: #333;
+    margin-top: 30px;
+}
+
+.top-part__first-letter {
+    font-size: 46px;
+    line-height: 46px;
+}
+
+.top-part__nth-letter {
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.top-part__text {
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 400;
+    color: #999;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.socials__icon {
+    color: #000;
+    font-size: 32px;
+    line-height: 44px;
+    text-decoration: none;
+    margin-left: 13px;
+    margin-right: 13px;
+    padding-bottom: 0;
+}
+
+.socials__icon:hover {
+    color: #00ACEE;
+}
+
+.navbar__links {
+    text-decoration: none;
+    color: $color-main;
+}
+
+.navbar__links:hover {
+    color: #000;
+}
+
+.menu__list {
+    list-style: none;
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu__link_active {
+    color: #000;
+}
+
+.menu__link:hover {
+    color: #000;
+}
+
+.search__input {
+    padding: 0;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    color: #7f7f7f;
+    height: 33px;
+    width: 220px;
+    padding-left: 10px;
+}
+
+.search__button {
+    padding: 0;
+    height: 33px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    color: $color-main;
+    text-transform: uppercase;
+    cursor: pointer;
+}
